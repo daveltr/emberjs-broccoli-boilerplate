@@ -43,8 +43,11 @@ module.exports = function (broccoli) {
     'ember-data.js',
     'ember-resolver.js',
     'bootstrap.js',
+<<<<<<< HEAD
     'bootstrap-datepicker.js',
     'moment.js',
+=======
+>>>>>>> aaf585e6c595643c0b70fbe5635fa32a8235d546
     'config/environment.js',
     'config/environments/' + env + '.js'
   ];
