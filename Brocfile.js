@@ -18,7 +18,7 @@ module.exports = function (broccoli) {
     });
     tree = filterLess(tree, {
       compress: env === 'production',
-      paths: ['.', './stylesheets', './vendor/bootstrap/less']
+      paths: ['.', './stylesheets', './vendor/bootstrap/less', './vendor/bootstrap-datepicker/less']
     });
     return tree;
   }
